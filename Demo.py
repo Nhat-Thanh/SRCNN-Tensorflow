@@ -46,6 +46,6 @@ for imname in list_image_names:
     bicubic_img = cv2.cvtColor(bicubic_img, cv2.COLOR_YCR_CB2BGR)
     smooth_img = cv2.GaussianBlur(bicubic_img, (3, 3), 0)
 
-    cv2.imwrite(f"demo/results/recon/{os.path.splitext(imname)[0]}_recon.bmp", recon_img)
-    cv2.imwrite(f"demo/results/bicubic/{os.path.splitext(imname)[0]}_bicubic.bmp", bicubic_img)
-    cv2.imwrite(f"demo/results/smooth/{os.path.splitext(imname)[0]}_smooth.bmp", smooth_img)
+    cv2.imwrite(f"demo/results/recon/{os.path.splitext(imname)[0]}-recon.bmp", recon_img)
+    cv2.imwrite(f"demo/results/bicubic/{os.path.splitext(imname)[0]}-bicubic.bmp", bicubic_img)
+    cv2.imwrite(f"demo/results/smooth/{os.path.splitext(imname)[0]}-smooth.bmp", smooth_img)

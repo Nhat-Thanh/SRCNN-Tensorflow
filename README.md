@@ -93,6 +93,6 @@ We tested with some images from following links and got some results:
 - Image Super-Resolution Using Deep Convolutional Networks: https://arxiv.org/pdf/1501.00092.pdf
 - SRCNN Matlab code: http://mmlab.ie.cuhk.edu.hk/projects/SRCNN.html
 - T91 and BSDS100 dataset: http://vllab.ucmerced.edu/wlai24/LapSRN/
-- Set5 and Set14 dataset: https://github.com/jbhuang0604/SelfExSR
+- Set5 and Set14 dataset: https://github.com/jbhuang0604/SelfExSR#comparison-with-the-state-of-the-art
 - YeongHyeon/Super-Resolution_CNN: https://github.com/YeongHyeon/Super-Resolution_CNN
 - aditya9211/Super-Resolution-CNN: https://github.com/aditya9211/Super-Resolution-CNN
